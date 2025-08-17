@@ -9,7 +9,7 @@ async function start() {
   await initDB(); // Create DB
   await loadSampleData("src/config/sampleData.json"); // Seed DB
   app.listen(PORT, () => {
-    console.log(`🚀 Backend running on http://localhost:${PORT}`);
+    console.log(`Backend running on http://localhost:${PORT}`);
   });
 }
 

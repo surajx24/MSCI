@@ -17,7 +17,7 @@ export async function initDB() {
       ? ":memory:"
       : process.env.DB_FILE || path.resolve(__dirname, "../../data.db");
 
-  console.log(`📂 Using database file: ${dbFile}`);
+  console.log(`Using database file: ${dbFile}`);
 
   try {
     db = new Database(dbFile);
@@ -46,12 +46,12 @@ export async function loadSampleData(filePath) {
   // Check if data already exists
   const existingCount = db.prepare("SELECT COUNT(*) as count FROM transactions").get();
   if (existingCount.count > 0) {
-    console.log(`📊 Database already contains ${existingCount.count} transactions, skipping sample data load`);
+    console.log(`Database already contains ${existingCount.count} transactions, skipping sample data load`);
     return;
   }
 
   const resolvedPath = path.resolve(__dirname, "../../", filePath);
-  console.log(`📄 Loading sample data from: ${resolvedPath}`);
+  console.log(` Loading sample data from: ${resolvedPath}`);
 
   if (!fs.existsSync(resolvedPath)) {
     console.error(`Sample data file not found`);
@@ -72,12 +72,12 @@ export async function loadSampleData(filePath) {
   });
 
   insertMany(sampleData);
-  console.log(`✅ Inserted ${sampleData.length} sample transactions`);
+  console.log(` Inserted ${sampleData.length} sample transactions`);
 }
 
 export function getDB() {
   if (!db) throw new Error("Database not initialized");
-  console.log("ℹ getDB returning active connection");
+  console.log(" getDB returning active connection");
   return db;
 }
 
