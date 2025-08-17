@@ -1,0 +1,25 @@
+{
+  "name": "personal-finance-tracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {}
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --runInBand"
+  },
+  "dependencies": {
+    "better-sqlite3": "^7.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3"
+  }
+}

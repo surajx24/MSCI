@@ -1,0 +1,165 @@
+.transactions-list-card {
+  background: linear-gradient(135deg, #ffffff 0%, #f7fafc 100%);
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  height: fit-content;
+  transition: all 0.3s ease;
+}
+
+.transactions-list-card:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.list-title {
+  font-weight: 600;
+  color: #1a202c;
+  margin-bottom: 1rem;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-header {
+  background-color: #f7fafc;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.table-header-cell {
+  font-weight: 600;
+  color: #1a202c;
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.table-row {
+  transition: background-color 0.2s ease;
+}
+
+.table-row:hover {
+  background-color: #f7fafc;
+}
+
+.table-cell {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e2e8f0;
+  vertical-align: top;
+}
+
+.transaction-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.transaction-description {
+  font-weight: 500;
+  color: #1a202c;
+  font-size: 0.875rem;
+}
+
+.transaction-meta {
+  color: #718096;
+  font-size: 0.75rem;
+}
+
+.transaction-amount {
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.transaction-amount.income {
+  color: #059669;
+}
+
+.transaction-amount.expense {
+  color: #dc2626;
+}
+
+.transaction-type-badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
+  border: 1px solid;
+  min-width: 60px;
+}
+
+.transaction-type-badge.income {
+  background-color: #d1fae5;
+  color: #065f46;
+  border-color: #059669;
+}
+
+.transaction-type-badge.expense {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border-color: #dc2626;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.no-data-container {
+  text-align: center;
+  padding: 2rem;
+  color: #718096;
+}
+
+.no-data-text {
+  font-style: italic;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .table-header-cell,
+  .table-cell {
+    padding: 8px 12px;
+  }
+  
+  .transaction-description {
+    font-size: 0.8rem;
+  }
+  
+  .transaction-meta {
+    font-size: 0.7rem;
+  }
+  
+  .transaction-amount {
+    font-size: 0.8rem;
+  }
+  
+  .transaction-type-badge {
+    font-size: 0.7rem;
+    min-width: 50px;
+    padding: 0.2rem 0.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .table-container {
+    font-size: 0.8rem;
+  }
+  
+  .table-header-cell,
+  .table-cell {
+    padding: 6px 8px;
+  }
+  
+  .transaction-type-badge {
+    min-width: 45px;
+    padding: 0.15rem 0.3rem;
+  }
+}

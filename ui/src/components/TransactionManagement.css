@@ -1,0 +1,167 @@
+.transaction-management-card {
+  background: linear-gradient(135deg, #ffffff 0%, #f7fafc 100%);
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.transaction-management-card:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.header-title {
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.add-button {
+  background-color: #1a365d;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #0f1f2e;
+}
+
+.alert-container {
+  margin-bottom: 1rem;
+}
+
+.transaction-list {
+  margin-top: 1rem;
+}
+
+.transaction-item {
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background-color: white;
+  transition: background-color 0.2s ease;
+}
+
+.transaction-item:hover {
+  background-color: #f7fafc;
+}
+
+.transaction-description {
+  font-weight: 500;
+  color: #1a202c;
+}
+
+.transaction-meta {
+  color: #718096;
+  font-size: 0.75rem;
+}
+
+.transaction-amount {
+  font-weight: 600;
+}
+
+.transaction-amount.income {
+  color: #059669;
+}
+
+.transaction-amount.expense {
+  color: #dc2626;
+}
+
+.transaction-type-chip {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.transaction-type-chip.income {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.transaction-type-chip.expense {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.action-button {
+  transition: all 0.2s ease;
+}
+
+.action-button:hover {
+  transform: scale(1.1);
+}
+
+.dialog-content {
+  padding: 1rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.form-field-full {
+  grid-column: 1 / -1;
+}
+
+.form-field-half {
+  grid-column: span 1;
+}
+
+.dialog-actions {
+  padding: 1rem;
+  gap: 0.5rem;
+}
+
+.submit-button {
+  background-color: #1a365d;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0f1f2e;
+}
+
+.submit-button:disabled {
+  background-color: #a0aec0;
+}
+
+.loading-spinner {
+  color: inherit;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header-section {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: stretch;
+  }
+  
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .form-field-half {
+    grid-column: 1 / -1;
+  }
+  
+  .transaction-item {
+    padding: 0.75rem;
+  }
+  
+  .action-buttons {
+    gap: 0.5rem;
+  }
+}

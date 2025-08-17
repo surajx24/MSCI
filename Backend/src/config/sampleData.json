@@ -1,0 +1,191 @@
+[
+  {
+    "type": "income",
+    "category": "Salary",
+    "amount": 5000.00,
+    "date": "2025-08-01",
+    "description": "Salary"
+  },
+  {
+    "type": "income",
+    "category": "Freelance",
+    "amount": 1200.00,
+    "date": "2025-07-28",
+    "description": "Freelance Project"
+  },
+  {
+    "type": "income",
+    "category": "Investment",
+    "amount": 350.00,
+    "date": "2025-07-25",
+    "description": "Investment Dividend"
+  },
+  {
+    "type": "income",
+    "category": "Consulting",
+    "amount": 800.00,
+    "date": "2025-07-22",
+    "description": "Consulting Fee"
+  },
+  {
+    "type": "income",
+    "category": "Bonus",
+    "amount": 1500.00,
+    "date": "2025-07-18",
+    "description": "Bonus Payment"
+  },
+  {
+    "type": "income",
+    "category": "Commission",
+    "amount": 600.00,
+    "date": "2025-07-15",
+    "description": "Commission"
+  },
+  {
+    "type": "income",
+    "category": "Rent",
+    "amount": 1200.00,
+    "date": "2025-07-12",
+    "description": "Rent Income"
+  },
+  {
+    "type": "income",
+    "category": "Royalties",
+    "amount": 450.00,
+    "date": "2025-07-08",
+    "description": "Royalties"
+  },
+  {
+    "type": "expense",
+    "category": "Food",
+    "amount": 85.50,
+    "date": "2025-08-14",
+    "description": "Grocery Shopping"
+  },
+  {
+    "type": "expense",
+    "category": "Transportation",
+    "amount": 45.00,
+    "date": "2025-08-12",
+    "description": "Gas Station"
+  },
+  {
+    "type": "expense",
+    "category": "Utilities",
+    "amount": 120.00,
+    "date": "2025-08-10",
+    "description": "Electric Bill"
+  },
+  {
+    "type": "expense",
+    "category": "Utilities",
+    "amount": 75.00,
+    "date": "2025-08-08",
+    "description": "Internet Service"
+  },
+  {
+    "type": "expense",
+    "category": "Food",
+    "amount": 65.00,
+    "date": "2025-08-05",
+    "description": "Restaurant Dinner"
+  },
+  {
+    "type": "expense",
+    "category": "Entertainment",
+    "amount": 32.00,
+    "date": "2025-08-03",
+    "description": "Movie Tickets"
+  },
+  {
+    "type": "expense",
+    "category": "Food",
+    "amount": 12.50,
+    "date": "2025-07-30",
+    "description": "Coffee Shop"
+  },
+  {
+    "type": "expense",
+    "category": "Transportation",
+    "amount": 28.00,
+    "date": "2025-07-27",
+    "description": "Uber Ride"
+  },
+  {
+    "type": "expense",
+    "category": "Utilities",
+    "amount": 95.00,
+    "date": "2025-07-25",
+    "description": "Phone Bill"
+  },
+  {
+    "type": "expense",
+    "category": "Healthcare",
+    "amount": 50.00,
+    "date": "2025-07-23",
+    "description": "Gym Membership"
+  },
+  {
+    "type": "expense",
+    "category": "Shopping",
+    "amount": 125.00,
+    "date": "2025-07-20",
+    "description": "Online Shopping"
+  },
+  {
+    "type": "expense",
+    "category": "Food",
+    "amount": 18.75,
+    "date": "2025-07-17",
+    "description": "Lunch with Colleagues"
+  },
+  {
+    "type": "expense",
+    "category": "Transportation",
+    "amount": 15.00,
+    "date": "2025-07-15",
+    "description": "Parking Fee"
+  },
+  {
+    "type": "expense",
+    "category": "Entertainment",
+    "amount": 15.99,
+    "date": "2025-07-12",
+    "description": "Netflix Subscription"
+  },
+  {
+    "type": "expense",
+    "category": "Healthcare",
+    "amount": 150.00,
+    "date": "2025-07-10",
+    "description": "Dental Checkup"
+  },
+  {
+    "type": "expense",
+    "category": "Education",
+    "amount": 45.00,
+    "date": "2025-07-07",
+    "description": "Books"
+  },
+  {
+    "type": "expense",
+    "category": "Shopping",
+    "amount": 35.50,
+    "date": "2025-07-05",
+    "description": "Home Supplies"
+  },
+  {
+    "type": "expense",
+    "category": "Transportation",
+    "amount": 8.00,
+    "date": "2025-07-03",
+    "description": "Bus Fare"
+  },
+  {
+    "type": "expense",
+    "category": "Food",
+    "amount": 22.00,
+    "date": "2025-07-01",
+    "description": "Snacks"
+  }
+]
