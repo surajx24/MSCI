@@ -1,3 +1,5 @@
+TO CLONE THE CODE,  use HTTPS : git clone https://github.com/surajx24/MSCI.git
+
 TO RUN THE APPLICATION, PLEASE FOLLOW THE BELOW STEPS
 
 STEP - 1 :  Check if you are in the root folder (MSCI)
