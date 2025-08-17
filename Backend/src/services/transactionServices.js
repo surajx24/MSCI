@@ -20,7 +20,7 @@ export async function deleteTransaction(id) {
 }
 
 export async function getMonthlySummary() {
-  const rows = await model.getAll(); // ✅ safe array
+  const rows = await model.getAll(); // safe array
   const totalIncome = rows
     .filter(t => t.type === "income")
     .reduce((sum, t) => sum + t.amount, 0);

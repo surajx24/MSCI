@@ -9,42 +9,42 @@ const theme = createTheme({
   palette: {
     mode: 'light',
     primary: {
-      main: '#1a365d', // MSCI's signature dark blue
+      main: '#1a365d',
       light: '#2d5a87',
       dark: '#0f1f2e',
       contrastText: '#ffffff',
     },
     secondary: {
-      main: '#3182ce', // MSCI's secondary blue
+      main: '#3182ce',
       light: '#63b3ed',
       dark: '#1e40af',
       contrastText: '#ffffff',
     },
     background: {
-      default: '#f7fafc', // MSCI's light gray background
+      default: '#f7fafc',
       paper: '#ffffff',
     },
     text: {
-      primary: '#1a202c', // MSCI's dark text color
-      secondary: '#4a5568', // MSCI's secondary text color
+      primary: '#1a202c',
+      secondary: '#4a5568',
     },
     success: {
-      main: '#38a169', // MSCI's green for positive values
+      main: '#38a169',
       light: '#68d391',
       dark: '#2f855a',
     },
     error: {
-      main: '#e53e3e', // MSCI's red for negative values
+      main: '#e53e3e',
       light: '#fc8181',
       dark: '#c53030',
     },
     warning: {
-      main: '#d69e2e', // MSCI's amber/warning color
+      main: '#d69e2e',
     },
     info: {
-      main: '#3182ce', // MSCI's info blue
+      main: '#3182ce',
     },
-    divider: '#e2e8f0', // MSCI's subtle divider color
+    divider: '#e2e8f0',
   },
   typography: {
     fontFamily: '"Inter", "Roboto", "Helvetica", "Arial", sans-serif',

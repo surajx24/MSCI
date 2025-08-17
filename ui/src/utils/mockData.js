@@ -77,15 +77,15 @@ export const purchaseData = [
 ];
 
 export const donutData = [
-  { name: 'Completed', value: 63, color: '#38a169' }, // MSCI green
-  { name: 'Remaining', value: 37, color: '#e2e8f0' }, // MSCI light gray
+  { name: 'Completed', value: 63, color: '#38a169' }, //  green
+  { name: 'Remaining', value: 37, color: '#e2e8f0' }, // light gray
 ];
 
 export const pieData = [
-  { name: 'Desktop', value: 47.4, color: '#1a365d' }, // MSCI primary blue
-  { name: 'Mobile', value: 33.1, color: '#3182ce' }, // MSCI secondary blue
-  { name: 'Tablet', value: 10.5, color: '#d69e2e' }, // MSCI warning color
-  { name: 'Other', value: 9, color: '#4a5568' }, // MSCI text secondary
+  { name: 'Desktop', value: 47.4, color: '#1a365d' }, //  primary blue
+  { name: 'Mobile', value: 33.1, color: '#3182ce' }, //  secondary blue
+  { name: 'Tablet', value: 10.5, color: '#d69e2e' }, // warning color
+  { name: 'Other', value: 9, color: '#4a5568' }, // text secondary
 ];
 
 // Utility function to calculate financial totals
